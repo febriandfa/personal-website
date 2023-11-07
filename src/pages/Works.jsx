@@ -1,7 +1,8 @@
 import React from "react";
 import Layout from "../layouts/Layout";
 import Card from "../components/Card";
-import { Begagan, Eduhug, Jembul, Koppi, Porto, Quliqu, Xproject } from "../assets";
+import { Begagan, Eduhug, Jembul, Koppi, Porto, Quliqu, Urban, Xproject } from "../assets";
+import CardProgress from "../components/CardProgress";
 
 const Works = () => {
   return (
@@ -16,6 +17,7 @@ const Works = () => {
           <Card img={Porto} title="DFA Portfolio" language="HTML, TailwindCSS, ReactJS" link="https://febriandfa.netlify.app/" />
           <Card img={Eduhug} title="EduHug" language="HTML, CSS, JavaScript" link="https://eduhug.netlify.app/" />
           <Card img={Koppi} title="Koppi University" language="HTML, CSS, JavaScript" link="https://koppiuniv.netlify.app/" />
+          <CardProgress img={Urban} title="Urban Scholaria" language="HTML, TailwidCSS, ReactJS, Dart, Flutter, Laravel" link="https://koppiuniv.netlify.app/" />
         </div>
       </div>
     </Layout>
