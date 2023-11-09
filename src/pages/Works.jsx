@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layouts/Layout";
 import Card from "../components/Card";
-import { Begagan, Eduhug, Jembul, Koppi, Porto, Quliqu, Urban, Xproject } from "../assets";
+import { Begagan, Design, Eduhug, Jembul, Koppi, Porto, Quliqu, Urban, Xproject } from "../assets";
 import CardProgress from "../components/CardProgress";
 
 const Works = () => {
@@ -14,6 +14,7 @@ const Works = () => {
           <Card img={Xproject} title="X-Project 9.0" language="HTML, TailwindCSS, ReactJS" link="https://xproject9.netlify.app/" />
           <Card img={Begagan} title="Desa Begaganlimo" language="HTML, TailwindCSS, ReactJS, Horizon UI" link="https://desabegaganlimo.netlify.app/" />
           <Card img={Quliqu} title="Quliqu" language="HTML, TailwindCSS, ReactJS" link="https://quliqu.netlify.app/" />
+          <Card img={Design} title="D'esign" language="HTML, CSS" link="https://d-esign-website.netlify.app/" />
           <Card img={Porto} title="DFA Portfolio" language="HTML, TailwindCSS, ReactJS" link="https://febriandfa.netlify.app/" />
           <Card img={Eduhug} title="EduHug" language="HTML, CSS, JavaScript" link="https://eduhug.netlify.app/" />
           <Card img={Koppi} title="Koppi University" language="HTML, CSS, JavaScript" link="https://koppiuniv.netlify.app/" />
