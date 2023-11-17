@@ -34,13 +34,25 @@ const About = () => {
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">ReactJs</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">ViteJs</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">TailwindCSS</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">Bootstrap</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">Flutter</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Laravel Blade</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">Git</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Alpine.js</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">GitHub</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Flowbite</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">React Router</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
               </div>
             </div>
