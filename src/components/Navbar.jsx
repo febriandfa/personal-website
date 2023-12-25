@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,35 +20,35 @@ const Navbar = () => {
         {/* Desktop Nav Menu */}
         <ul className="flex justify-between py-4 border-b-2 border-black">
           <li>
-            <a className="font-dmmono font-medium text-xl" href="/">
+            <Link className="font-dmmono font-medium text-xl" to="/">
               Febrian.
               <br />
               Dfa-
-            </a>
+            </Link>
           </li>
           <li className="md:inline-block hidden ">
-            <a
+            <Link
               className="inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-black hover:before:w-full hover:before:opacity-100"
-              href="/"
+              to="/"
             >
               <span className="font-semibold text-xl">*</span> Home
-            </a>
+            </Link>
           </li>
           <li className="md:inline-block hidden">
-            <a
+            <Link
               className="inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-black hover:before:w-full hover:before:opacity-100"
-              href="/about"
+              to="/about"
             >
               <span className="font-semibold text-xl">*</span> About
-            </a>
+            </Link>
           </li>
           <li className="md:inline-block hidden">
-            <a
+            <Link
               className="inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-black hover:before:w-full hover:before:opacity-100"
-              href="/works"
+              to="/works"
             >
               <span className="font-semibold text-xl">*</span> Works
-            </a>
+            </Link>
           </li>
           <li className="md:inline-block hidden">
             <ul className="flex flex-col gap-1">
@@ -78,9 +79,9 @@ const Navbar = () => {
             </ul>
           </li>
           <motion.li className="md:inline-block hidden border-2 border-black h-fit rounded" whileHover={{ scale: 1.1 }}>
-            <a className="px-4 py-1" href="/contact">
+            <Link className="px-4 py-1" to="/contact">
               Contact
-            </a>
+            </Link>
           </motion.li>
           <li className="md:hidden inline-block">
             <motion.div whileTap={{ scale: 0.8, rotate: 180 }}>

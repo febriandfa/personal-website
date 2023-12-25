@@ -18,7 +18,7 @@ const Works = () => {
           <Card img={Porto} title="DFA Portfolio" language="HTML, TailwindCSS, ReactJS, React Router" link="https://febriandfa.netlify.app/" />
           <Card img={Eduhug} title="EduHug" language="HTML, CSS, JavaScript" link="https://eduhug.netlify.app/" />
           <Card img={Koppi} title="Koppi University" language="HTML, CSS, JavaScript" link="https://koppiuniv.netlify.app/" />
-          <CardProgress img={Urban} title="Urban Scholaria" language="HTML, TailwidCSS, ReactJS, ViteJS, Flutter, React Router" link="https://koppiuniv.netlify.app/" />
+          <Card img={Urban} title="Urban Scholaria" language="HTML, TailwidCSS, ReactJS, ViteJS, Flutter, React Router" link="https://urbanskuy.netlify.app/" />
         </div>
       </div>
     </Layout>
