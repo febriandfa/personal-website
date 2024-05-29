@@ -19,7 +19,7 @@ const About = () => {
                 <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Daffa</span>, and I am currently a{" "}
                 <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Bachelor's Degree</span> student majoring in{" "}
                 <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Informatic Engineering</span> at Surabaya State University. I have a strong passion for{" "}
-                <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Front-End Development</span>, and I have participated in several committees to gain organizational experience. As a proactive learner, I am
+                <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Full-Stack Development</span>, and I have participated in several committees to gain organizational experience. As a proactive learner, I am
                 always seeking opportunities to further enhance my skills and knowledge in these areas. I look forward to work together with you.
               </p>
             </div>
@@ -32,27 +32,25 @@ const About = () => {
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">JavaScript</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">TypeScript</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">PHP</p>
+                <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">ReactJs</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">ViteJs</p>
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Next.js</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">TailwindCSS</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">Bootstrap</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Flutter</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Laravel Blade</p>
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Laravel</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">Git</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Alpine.js</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
                 <p className="inline-block py-1 px-3 rounded border border-black text-lg">GitHub</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Flowbite</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">React Router</p>
+                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Postman</p>
                 <hr className="w-7 border-b-2 rounded border-black" />
               </div>
             </div>
@@ -75,7 +73,7 @@ const About = () => {
               <Timeline date="February 2022 - December 2022" position="Staff of Interest and Talent Department" organization="HIMTI UNESA - Himpunan Teknik Informatika UNESA" />
             </motion.div>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
-              <Timeline date="January 2023 - Present" position="Head of Interest and Talent Department" organization="HIMTI UNESA - Himpunan Teknik Informatika UNESA" />
+              <Timeline date="January 2023 - December 2023" position="Head of Interest and Talent Department" organization="HIMTI UNESA - Himpunan Teknik Informatika UNESA" />
             </motion.div>
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
               <Timeline date="October 2023 - Present" position="Director of Research and Development Division" organization="GDSC@UNESA - Googel Developer Student Community @ UNESA" />
