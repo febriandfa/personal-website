@@ -3,6 +3,9 @@ import Layout from "../layouts/Layout";
 import Timeline from "../components/Timeline";
 import { Fotoku } from "../assets";
 import { easeIn, motion } from "framer-motion";
+import skills from "../datas/skills.json";
+import organizations from "../datas/organizations.json";
+import works from "../datas/works.json";
 
 const About = () => {
   return (
@@ -15,48 +18,44 @@ const About = () => {
               <h1 className="font-bold lg:text-5xl text-3xl text-left lg:mb-10 mb-7">#AboutMe</h1>
               <img className="lg:w-3/5 w-full h-40 object-cover mb-5 rounded" src={Fotoku} alt="fotoku" />
               <p className="lg:text-lg text-base font-light lg:leading-normal leading-8">
-                Greetings! My name is <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Febrian Daffa Eka Putra</span> you can call me{" "}
-                <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Daffa</span>, and I am currently a{" "}
-                <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Bachelor's Degree</span> student majoring in{" "}
-                <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Informatic Engineering</span> at Surabaya State University. I have a strong passion for{" "}
-                <span className="border-b-2 border-black text-lg leading-tight inline font-medium">Full-Stack Development</span>, and I have participated in several committees to gain organizational experience. As a proactive learner, I am
-                always seeking opportunities to further enhance my skills and knowledge in these areas. I look forward to work together with you.
+                My name is <span class="highlight-text">Febrian Daffa Eka Putra</span> you can call me <span class="highlight-text">Daffa</span>, I am a <span class="highlight-text">Full-Stack Web Developer</span> and currently a Bachelor's
+                degree student majoring in <span class="highlight-text">Information Systems</span>. I have a strong foundation in core web technologies including <span class="highlight-text">HTML, CSS, JavaScript, PHP, and TypeScript</span>
+                . Skilled using modern frameworks and libraries such as <span class="highlight-text">React, Next.js, Laravel, TailwindCSS, Bootstrap</span> and currently expoloring{" "}
+                <span class="highlight-text">MongoDB, Node.js, Express.js, and Astro</span>. Skilled in the use of version control using <span class="highlight-text">Git and Github</span>. I am committed to continuing to learn and
+                enthusiastic about applying my knowledge to provide high quality solutions.
               </p>
             </div>
             <div className="col-span-2">
               <h1 className="font-bold lg:text-5xl text-3xl text-left lg:mb-10 mb-7">#Skills</h1>
               <div className="flex flex-wrap items-center gap-x-2 gap-y-3 justify-start mx-auto">
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">HTML</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">CSS</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">JavaScript</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">TypeScript</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">PHP</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">ReactJs</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Next.js</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">TailwindCSS</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Bootstrap</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Laravel</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Git</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">GitHub</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
-                <p className="inline-block py-1 px-3 rounded border border-black text-lg">Postman</p>
-                <hr className="w-7 border-b-2 rounded border-black" />
+                {skills.map((skill) => (
+                  <>
+                    <p className="inline-block py-1 px-3 rounded border border-black text-lg">{skill.name}</p>
+                    <hr className="w-7 border-b-2 rounded border-black" />
+                  </>
+                ))}
               </div>
             </div>
           </div>
         </section>
         {/* About Section */}
+
+        {/* Work Section */}
+        <section className="mb-20">
+          <h1 className="font-bold lg:text-5xl text-3xl text-center mb-10">
+            #Work
+            <br className="md:hidden block" />
+            Experience
+          </h1>
+          <div className="w-fit mx-auto">
+            {works.map((work) => (
+              <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
+                <Timeline date={`${work.start_date} - ${work.end_date}`} position={work.position} organization={work.company} />
+              </motion.div>
+            ))}
+          </div>
+        </section>
+        {/* Work Section */}
 
         {/* Organization Section */}
         <section>
@@ -66,18 +65,11 @@ const About = () => {
             Experience
           </h1>
           <div className="w-fit mx-auto">
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
-              <Timeline date="January 2022 - July 2022" position="Staff of Social Media & Content Creator" organization="HIMPI PT UNESA - Himpunan Pengusaha Muda Indonesia Perguruan Tinggi UNESA" />
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
-              <Timeline date="February 2022 - December 2022" position="Staff of Interest and Talent Department" organization="HIMTI UNESA - Himpunan Teknik Informatika UNESA" />
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
-              <Timeline date="January 2023 - December 2023" position="Head of Interest and Talent Department" organization="HIMTI UNESA - Himpunan Teknik Informatika UNESA" />
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
-              <Timeline date="October 2023 - Present" position="Director of Research and Development Division" organization="GDSC@UNESA - Googel Developer Student Community @ UNESA" />
-            </motion.div>
+            {organizations.map((organization) => (
+              <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { type: easeIn, duration: 2 } }} viewport={{ once: true }}>
+                <Timeline date={`${organization.start_date} - ${organization.end_date}`} position={organization.position} organization={organization.organization} />
+              </motion.div>
+            ))}
           </div>
         </section>
         {/* Organization Section */}

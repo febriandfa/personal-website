@@ -45,9 +45,9 @@ const Navbar = () => {
           <li className="md:inline-block hidden">
             <Link
               className="inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-black hover:before:w-full hover:before:opacity-100"
-              to="/works"
+              to="/project"
             >
-              <span className="font-semibold text-xl">*</span> Works
+              <span className="font-semibold text-xl">*</span> Project
             </Link>
           </li>
           <li className="md:inline-block hidden">
@@ -139,9 +139,9 @@ const Navbar = () => {
             <li>
               <a
                 className="inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-black hover:before:w-full hover:before:opacity-100"
-                href="/works"
+                href="/project"
               >
-                * Works
+                * Project
               </a>
             </li>
             <li>

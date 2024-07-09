@@ -11,12 +11,12 @@ const Footer = () => {
     nextLink = "/about";
   } else if (location.pathname === "/about") {
     prevLink = "/";
-    nextLink = "/works";
-  } else if (location.pathname === "/works") {
+    nextLink = "/project";
+  } else if (location.pathname === "/project") {
     prevLink = "/about";
     nextLink = "/contact";
   } else if (location.pathname === "/contact") {
-    prevLink = "/works";
+    prevLink = "/project";
   }
 
   return (

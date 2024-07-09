@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="lg:flex items-center lg:mb-20 mb-5">
             <p className="text-xl text-left mb-3">Contact me via</p>
             <div>
-              <a className="flex gap-3 font-bold lg:text-6xl text-5xl ml-3 w-fit border-b-4 border-black" href="https://wa.me/+6289666802021">
+              {/* <a className="flex gap-3 font-bold lg:text-6xl text-5xl ml-3 w-fit border-b-4 border-black" href="https://wa.me/+6289666802021">
                 WhatsApp
                 <svg className="w-7 h-7 p-0.5 border-2 border-black rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -21,7 +21,7 @@ const Contact = () => {
                   </g>
                 </svg>
               </a>
-              <p className="pl-3">+62 896-6680-2021</p>
+              <p className="pl-3">+62 896-6680-2021</p> */}
               <a className="flex gap-3 font-bold lg:text-6xl text-5xl ml-3 mt-6 w-fit border-b-4 border-black" href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=febriandaffa123@gmail.com">
                 Email
                 <svg className="w-7 h-7 p-0.5 border-2 border-black rounded-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Freelance",
+    "start_date": "December 2023",
+    "end_date": "Present",
+    "position": "Full-stack Website Developer"
+  },
+  {
+    "company": "PT Otak Kanan",
+    "start_date": "February 2024",
+    "end_date": "June 2024",
+    "position": "Full-stack Website Developer"
+  },
+  {
+    "company": "Urban Labs",
+    "start_date": "August 2023",
+    "end_date": "December 2023",
+    "position": "Front-end Website Developer"
+  },
+  {
+    "company": "GraPARI Telkomsel",
+    "start_date": "January 2020",
+    "end_date": "April 2020",
+    "position": "Intern"
+  }
+]

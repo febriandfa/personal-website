@@ -1,0 +1,79 @@
+[
+  {
+    "name": "SEA Salon",
+    "stack": "React, Laravel, TailwindCSS",
+    "img": "/src/assets/seasalon.png",
+    "github": "https://github.com/febriandfa/sea-salon-app",
+    "website": null
+  },
+  {
+    "name": "JagoConfig",
+    "stack": "React, Laravel, TailwindCSS",
+    "img": "/src/assets/jagoconfig.png",
+    "github": "https://github.com/febriandfa/JagoConfig",
+    "website": null
+  },
+  {
+    "name": "Next-Media",
+    "stack": "React, Laravel, TailwindCSS",
+    "img": "/src/assets/nextmedia.png",
+    "github": "https://github.com/febriandfa/next.media",
+    "website": null
+  },
+  {
+    "name": "SinuaO!",
+    "stack": "React, Laravel, TailwindCSS",
+    "img": "/src/assets/sinauo.png",
+    "github": "https://github.com/febriandfa/Sinauo",
+    "website": null
+  },
+  {
+    "name": "Urban Scholaria",
+    "stack": "React, Laravel, TailwindCSS",
+    "img": "/src/assets/urbanscholaria.jpg",
+    "github": "https://github.com/febriandfa/urban-scholaria",
+    "website": "https://urbanskuy.netlify.app/"
+  },
+  {
+    "name": "X-Project 9.0",
+    "stack": "React, TailwindCSS",
+    "img": "/src/assets/xproject90.jpg",
+    "github": "https://github.com/febriandfa/xproject-9",
+    "website": "https://xproject9.netlify.app/Techno-Symphony"
+  },
+  {
+    "name": "Quliqu",
+    "stack": "React, TailwindCSS",
+    "img": "/src/assets/quliqu.jpg",
+    "github": "https://github.com/febriandfa/quliqu-react-tailwind",
+    "website": "https://quliqu.netlify.app/"
+  },
+  {
+    "name": "D'esign",
+    "stack": "HTML, CSS",
+    "img": "/src/assets/design.jpg",
+    "github": "https://github.com/febriandfa/d-esign-website",
+    "website": "https://d-esign-website.netlify.app/"
+  },
+  {
+    "name": "First Portfolio",
+    "stack": "React, TailwindCSS",
+    "img": "/src/assets/dfaportofolio.jpg",
+    "github": "https://github.com/febriandfa/portofolio-react-tailwind",
+    "website": "https://febriandfa.netlify.app/"
+  },
+  {
+    "name": "Eduhug",
+    "stack": "HTML, CSS, JavaScript",
+    "img": "/src/assets/eduhug.jpg",
+    "github": null,
+    "website": "https://eduhug.netlify.app/"
+  },
+  {
+    "name": "Koppi University",
+    "stack": "HTML, CSS, JavaScript",
+    "img": "/src/assets/koppiuniversity.jpg",
+    "github": "https://github.com/febriandfa/ResponsiveKoppiUniv",
+    "website": "https://koppiuniv.netlify.app/"
+  }
+]

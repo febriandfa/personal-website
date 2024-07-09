@@ -1,0 +1,47 @@
+[
+  {
+    "name": "HTML"
+  },
+  {
+    "name": "CSS"
+  },
+  {
+    "name": "JavaScript"
+  },
+  {
+    "name": "PHP"
+  },
+  {
+    "name": "TypeScript"
+  },
+  {
+    "name": "React"
+  },
+  {
+    "name": "Laravel"
+  },
+  {
+    "name": "Next.js"
+  },
+  {
+    "name": "TailwindCSS"
+  },
+  {
+    "name": "Bootstrap"
+  },
+  {
+    "name": "Git"
+  },
+  {
+    "name": "Node.js"
+  },
+  {
+    "name": "MongoDB"
+  },
+  {
+    "name": "Express.js"
+  },
+  {
+    "name": "Astro"
+  }
+]
