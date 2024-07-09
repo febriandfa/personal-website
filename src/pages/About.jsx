@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layouts/Layout";
 import Timeline from "../components/Timeline";
-import { Fotoku } from "../assets";
+// import { Fotoku } from "../assets";
 import { easeIn, motion } from "framer-motion";
 import skills from "../datas/skills.json";
 import organizations from "../datas/organizations.json";
@@ -16,7 +16,7 @@ const About = () => {
           <div className="grid lg:grid-cols-6 grid-cols-1 grid-rows-1 lg:gap-x-10 lg:gap-y-0 gap-y-5">
             <div className="col-span-4">
               <h1 className="font-bold lg:text-5xl text-3xl text-left lg:mb-10 mb-7">#AboutMe</h1>
-              <img className="lg:w-3/5 w-full h-40 object-cover mb-5 rounded" src={Fotoku} alt="fotoku" />
+              <img className="lg:w-3/5 w-full h-40 object-cover mb-5 rounded" src="/assets/foto.jpg" alt="fotoku" />
               <p className="lg:text-lg text-base font-light lg:leading-normal leading-8">
                 My name is <span class="highlight-text">Febrian Daffa Eka Putra</span> you can call me <span class="highlight-text">Daffa</span>, I am a <span class="highlight-text">Full-Stack Web Developer</span> and currently a Bachelor's
                 degree student majoring in <span class="highlight-text">Information Systems</span>. I have a strong foundation in core web technologies including <span class="highlight-text">HTML, CSS, JavaScript, PHP, and TypeScript</span>
